@@ -36,9 +36,9 @@ class App < Sinatra::Base
     if @verb == 'add'
       "#{(@num1 + @num2)}" 
     elsif @verb == 'subtract'
-      @num1 - @num2 
+      "#{(@num1 - @num2)}"" 
     elsif @verb == 'multiply'
-      @num1 * @num2 
+      "#{(@num1 * @num2)}" 
     elsif @verb == 'divide'
       @num1 / @num2
     end
